@@ -49,7 +49,12 @@ to learn typscript deeply
         ```
         let name: string = "Navneet";
         ```
-    3. Generatl syntax:
+    3. If we are initializing variable while declaration then, it's not compulsory to provide [ data_type ] as TS is smart enough to automatically infer the data_type
+        ```
+        let name = "Navneet";
+        ```
+    
+    4. Generatl syntax:
         ```
         [type] [variable_name]: [data_type];
         ```
