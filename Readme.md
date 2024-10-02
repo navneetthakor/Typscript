@@ -29,3 +29,31 @@ to learn typscript deeply
         tsc intro.ts
         ```
         this will generate [ intro.js ] file 
+
+## Data-types
+- Typescript is very reach in data-types. following are the few of them
+    - Number
+    - String
+    - Boolean
+    - Any
+    - Array
+    - etc ...
+
+- In this section I have created '2_data-type' folder to learn how to declare data-type for a variable
+    1. Declaring variable of type 'String'
+        ```
+        let name: string;
+        name = "Navneet"
+        ```
+    2. Variable declarationa and initialization both in single line
+        ```
+        let name: string = "Navneet";
+        ```
+    3. Generatl syntax:
+        ```
+        [type] [variable_name]: [data_type];
+        ```
+        here,
+        type  = ```var | let | const ```
+
+
