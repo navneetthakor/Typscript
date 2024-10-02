@@ -53,8 +53,14 @@ to learn typscript deeply
         ```
         let name = "Navneet";
         ```
-    
-    4. Generatl syntax:
+    4. In case, for a variable if we are not defining data-type and at the same time not initializing it, then data-type fo the variable will be infer as ```any```. It means this variable can take any value.
+        ```
+        let name;
+        ```
+        - here datat-type of this variable ```name``` is ```any```.
+        - TS provides ```noImplicitAny``` compiler flag to avoid this situation.
+
+    5. Generatl syntax:
         ```
         [type] [variable_name]: [data_type];
         ```
