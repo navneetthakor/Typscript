@@ -1,11 +1,16 @@
+# Abstract
+- This Repository is entrily created by 
+    - Navneet kumar ( @navneetthakor )
+
+to learn typscript deeply
+
 ## Introduction
 
 - Typscript is just performs ->  static checking + Javascript
 - at compile time typscript is compiled in -> javascript
 - Typscript is development tool
 - It saves our life from locking in runtime errors
-
-- - 
+ 
 
 ## Installation
 
