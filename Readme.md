@@ -19,6 +19,7 @@
         npm install typescript --save-dev
         ```
 - In this section I have created '1_installation' folder where basic typscript file [intro.ts] is there, now to compile this file
+       
         ```
         tsc intro.ts
         ```
