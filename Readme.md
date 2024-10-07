@@ -60,11 +60,50 @@ to learn typscript deeply
         - here datat-type of this variable ```name``` is ```any```.
         - TS provides ```noImplicitAny``` compiler flag to avoid this situation.
 
-    5. Generatl syntax:
+    5. General syntax:
         ```
         [type] [variable_name]: [data_type];
         ```
         here,
         type  = ```var | let | const ```
+
+## Working with functions
+- In case of functions the defualt inference for the data-type of input variables and returned values is ```any``` which is problemetic. That's why in case of functions we have to make sure that we are providind apropriate types.
+
+    1. Syntax to define data-types for functions.
+    ```
+    fund_name(var_name: data_type): return_data_type{
+        .
+        .
+        return data_type_value;
+    }
+    ```
+
+    2. if there are multiple parameter to pass then also we can define them like below.
+    ```
+    myFunc(num: number, name: string): void {
+        ...
+    }
+    ```
+
+    3. To pass default value to parameters
+    ```
+    myFunc(name: string, id: number = 0): void{
+        ...
+    }
+    ```
+
+    4. for inbuilt functions like map,
+    ```
+    myArr.map((name): string =>{
+        return `Hello Mr. ${name}`;
+    });
+    ```
+    here, data_type of 'name' will be correctly infered automatically according to the type of array. So, we not need to provide it explicitly.
+
+
+
+
+
 
 
