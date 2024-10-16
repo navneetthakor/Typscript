@@ -6,6 +6,7 @@ type User = {
     name: string;
     readonly email: string; // readonly property
     phone?: string; // optional property
+    isPaid ?: () => boolean;
 }
 
 // see we haven't added phone 
