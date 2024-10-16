@@ -105,6 +105,7 @@ to learn typscript deeply
     - only applicable when, function throws error or infinite loop 
 
 
+## Remaing is documented in folders starting from ```4_function_with_object``` folder. 
 
 
 
