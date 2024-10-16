@@ -22,4 +22,14 @@ let result3 = myArr.map((data): string =>{
 });
 console.log("\nresult-3: ", result3);
 
+// never return type -> when function never return anthing. (different then void);
+// only applicable when -> function throws error or infinite loop 
+const neverFunc = (num: number) : never =>{
+    console.log("hello");
+
+    throw Error("not well");
+}
+
+neverFunc(1);
+
 export {};

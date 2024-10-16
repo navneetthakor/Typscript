@@ -101,7 +101,8 @@ to learn typscript deeply
     ```
     here, data_type of 'name' will be correctly infered automatically according to the type of array. So, we not need to provide it explicitly.
 
-
+- There is a return_type called as ``` never ``` used to infer that, function will never return anything. It's different then  ``` void ``` which means, funciton returns nothing.
+    - only applicable when, function throws error or infinite loop 
 
 
 

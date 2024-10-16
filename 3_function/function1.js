@@ -21,3 +21,10 @@ var result3 = myArr.map(function (data) {
     return "Hello Mr. ".concat(data);
 });
 console.log("\nresult-3: ", result3);
+// never return type -> when function never return anthing. (different then void);
+// only applicable when -> function throws error or infinite loop 
+var neverFunc = function (num) {
+    console.log("hello");
+    throw Error("not well");
+};
+neverFunc(1);
