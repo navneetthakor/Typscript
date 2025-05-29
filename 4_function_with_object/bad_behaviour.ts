@@ -1,6 +1,6 @@
 // passing object to function 
 function func1(obj: {username: string, email: string ,ispaid: boolean}): void{
-    console.log(obj.username);
+    console.log(obj);
 }
 
 // returning object from function 

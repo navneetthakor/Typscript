@@ -3,7 +3,7 @@ var Data;
 (function (Data) {
     Data[Data["num1"] = 0] = "num1";
     Data[Data["num2"] = 1] = "num2";
-    Data[Data["num3"] = 2] = "num3";
+    Data[Data["num3"] = 2] = "num3";    
 })(Data || (Data = {}));
 // -> number, string, bigint and computed expressions like "5 + 9" are only applicable to enum
 // -> here if we used const before enum then it will generate less code in js 
