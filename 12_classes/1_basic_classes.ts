@@ -29,6 +29,7 @@ class User{
         this.name = name
         this.age = age
         this.greet = greetMessage
+        User.numberOfUsers += 1;
     }
 
     // gives error that `greet is readonly`
@@ -37,3 +38,18 @@ class User{
     // }
 
 }
+
+
+/*
+in produciton level we write this class by following structure in below class
+both are valid structure and will produce correct js code
+*/
+
+class Car{
+    constructor(public brand:string, public readonly name:string ){}
+}
+
+let car = new Car("Nexa","Baleno")
+// car.name = "hello" # error because readonly
+
+export {}

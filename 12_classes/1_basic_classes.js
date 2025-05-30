@@ -12,3 +12,17 @@ var User = /** @class */ (function () {
     User.numberOfUsers = 0;
     return User;
 }());
+/*
+in produciton level we write this class by following structure in below class
+both are valid structure and will produce correct js code
+*/
+var Car = /** @class */ (function () {
+    function Car(brand, name) {
+        this.brand = brand;
+        this.name = name;
+    }
+    return Car;
+}());
+var car = new Car("Nexa", "Baleno");
+// car.name = "hello" # error because readonly
+// export {}
