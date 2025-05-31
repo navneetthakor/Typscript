@@ -16,7 +16,7 @@ class Person{
         return this.age;
     }
 
-    // setter doesn't have return type at all 
+    // -----setter doesn't have return type at all----
     set setMyAge(newAge:number){
         if(newAge <= 0)
             throw new Error("age must be postive integer")
